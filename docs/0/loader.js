@@ -38,7 +38,7 @@ class Loader {
             o.query = record[0];
             o.target = record[1];
             for (let i=2; i<record.length; i++) {
-                o[keys[i]] = record[2];
+                o[keys[i]] = record[i];
             }
             result.push(o);
         }

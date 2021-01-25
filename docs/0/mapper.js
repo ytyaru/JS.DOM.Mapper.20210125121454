@@ -1,7 +1,7 @@
 class Mapper {
     static async map(selected) {
         const tsv = await Loader.load();
-        console.log(tsv);
+        console.log(selected, tsv);
         for (let record of tsv) {
             console.log(record.query);
             for (let el of document.querySelectorAll(record.query)) {

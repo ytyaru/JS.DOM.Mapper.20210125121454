@@ -13,7 +13,8 @@ window.addEventListener('load', async(event) => {
             option.textContent = key;
             select.appendChild(option);
         }
-        document.body.appendChild(select);
+//        document.body.appendChild(select);
+        document.body.insertBefore(select, document.body.children[0]);
         select.addEventListener('change', (event)=>{
             mapper.map(event.target.value);
         });

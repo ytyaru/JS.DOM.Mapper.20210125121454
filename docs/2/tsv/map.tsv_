@@ -1,0 +1,7 @@
+// query	target	和	英
+radio[value="male"]	textContent	男	Male
+radio[value="female"]	textContent	女	Female
+p	innerText	pに入れる	inP
+radio[value="female"]	innerText	女	Female
+div#xxx	innerHTML	<p>和<p>	<p>English<p>
+div.yyy	setAttribute,'class'	aaa	bbb

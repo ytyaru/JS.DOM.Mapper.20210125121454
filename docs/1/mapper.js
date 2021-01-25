@@ -24,7 +24,8 @@ class Mapper {
         }
     }
     #createKeys() {
-        return this.#keys = Object.keys(this.#tsv).filter(key=> 'query' !== key.toLowerCase() && 'target' !== key.toLowerCase() );
+        console.log(Object.keys(this.#tsv[0]));
+        return this.#keys = Object.keys(this.#tsv[0]).filter(key=> 'query' !== key.toLowerCase() && 'target' !== key.toLowerCase() );
 //        return this.#keys = this.#tsv.keys().filter(key=> 'query' !== key.toLowerCase() && 'target' !== key.toLowerCase() );
     }
     get Keys() {

@@ -1,0 +1,6 @@
+query	target	和	英
+p	innerHTML	<b>p</b>に入れる	inP
+option[value="male"]	textContent	男	Male
+option[value="female"]	textContent	女	Female
+div#xxx	innerText	日本語	English
+div.yyy	setAttribute,class	aaa	bbb

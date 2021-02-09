@@ -1,0 +1,12 @@
+query	target	和	英
+p	innerHTML	<b>p</b>に入れる	in <b>P</b>
+option[value="male"]	textContent	男	Male
+option[value="female"]	textContent	女	Female
+div#xxx	innerText	日本語	English
+div.yyy	setAttribute,class	aaa	bbb
+input[type="radio"][name="fontSize"][value="small"] + label	textContent	小	S
+input[type="radio"][name="fontSize"][value="medium"] + label	textContent	中	M
+input[type="radio"][name="fontSize"][value="large"] + label	textContent	大	L
+input[type="radio"][name="fontSize"][value="small"] + label	setAttribute,title	フォントサイズ小	fontSize small
+input[type="radio"][name="fontSize"][value="medium"] + label	setAttribute,title	フォントサイズ中	fontSize medium
+input[type="radio"][name="fontSize"][value="large"] + label	setAttribute,title	フォントサイズ大	fontSize large
